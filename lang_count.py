@@ -3,6 +3,7 @@ from collections import Counter
 
 # get input from user
 filename = input('Enter the filename: ')
+language = input('What language is the file in?\nSpanish = "s"\nRussian = "r"\n>>').lower()
 
 with open(filename, 'r', encoding='utf-8') as file:
     text = file.read().lower()
@@ -12,8 +13,12 @@ words = re.findall(r"\b\w+(?:'\w+)*\b", text, flags=re.UNICODE)
 counts = Counter(words)
 
 # read stop words from file and create a set for faster lookup
-with open('stop_words/stop_words_sp.txt', 'r', encoding='utf-8') as f:
-    stop_words = {line.strip().lower() for line in f if line.strip()}
+if language == 's':
+    with open('stop_words/stop_words_sp.txt', 'r', encoding='utf-8') as f:
+        stop_words = {line.strip().lower() for line in f if line.strip()}
+elif language == 'r':
+    with open('stop_words/stop_words_ru.txt', 'r', encoding='utf-8') as f:
+        stop_words = {line.strip().lower() for line in f if line.strip()}
 
 # print word counts excluding stop words
 print('\nVocabulary list (filtered):\n')
