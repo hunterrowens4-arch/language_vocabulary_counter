@@ -3,7 +3,8 @@ from collections import Counter
 
 # get input from user
 filename = input('Enter the filename: ')
-language = input('What language is the file in?\nSpanish = "s"\nRussian = "r"\n>>').lower()
+language = input(
+    'What language is the file in?\nSpanish = "s"\nRussian = "r"\n>>').lower()
 
 with open(filename, 'r', encoding='utf-8') as file:
     text = file.read().lower()
