@@ -15,6 +15,7 @@ becky
 bentley
 bizarrap
 brasil
+break
 brr
 carolina
 chris
@@ -23,6 +24,7 @@ close
 como
 cómo
 con
+contao
 cosas
 cuando
 de
@@ -36,10 +38,10 @@ el
 él
 ella
 en
-entre
 es
 esa
 esas
+ese
 eso
 esta
 está
@@ -67,6 +69,7 @@ karol
 kilo
 kilos
 la
+lao
 las
 le
 less
@@ -88,15 +91,20 @@ mi
 mí
 mis
 more
+muy
 na
 nada
 ni
 no
 nos
+nosotra
+nosotras
+nosotros
 o
 oh
 on
 ozuna
+p'atrá
 pa
 papi
 para
@@ -118,10 +126,12 @@ que
 qué
 tainy
 talk
+tan
 tanning
 te
 them
 ti
+to's
 training
 tu
 tú
@@ -132,6 +142,7 @@ un
 una
 uoh
 waiting
+wifey
 woh
 wrap
 y

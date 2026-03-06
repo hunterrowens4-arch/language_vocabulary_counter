@@ -18,8 +18,14 @@ counts = Counter(words)
 
 # read stop words from file and create a set for faster lookup
 while True:
-    language = input(
-    'What language is the file in?\nSpanish = "s"\nRussian = "r"\n>>').strip().lower()
+    language = input("""
+
+What language is the file in?
+>Spanish = "s"
+>Russian = "r"
+
+>>
+""").strip().lower()
     if language == 's':
         with open('stop_words/stop_words_sp.txt', 'r', encoding='utf-8') as f:
             stop_words = {line.strip().lower() for line in f if line.strip()}
@@ -34,7 +40,7 @@ while True:
 
 # read known words from file and create a set for faster lookup
 while True:
-    filter_list = input('Would you like to use a "Known Words" filter? (y/n): ').lower()
+    filter_list = input('\nWould you like to use a "Known Words" filter? (y/n)\n>>').lower()
     if filter_list == 'y':
         if language == 'r':
             with open('stop_words/known_words_ru.txt', 'r', encoding='utf-8') as f:
