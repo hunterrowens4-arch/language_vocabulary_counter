@@ -20,8 +20,8 @@ carolina
 chris
 clap
 close
-come
 como
+cómo
 con
 cosas
 cuando
@@ -33,9 +33,13 @@ dónde
 e
 eh
 el
+él
+ella
 en
 entre
 es
+esa
+esas
 eso
 esta
 está
@@ -50,6 +54,9 @@ g
 go
 google
 gps
+ha
+haze
+he
 hello
 hey
 huh
@@ -72,6 +79,7 @@ mala
 malo
 make
 mami
+man
 maps
 mas
 más
@@ -82,6 +90,7 @@ mis
 more
 na
 nada
+ni
 no
 nos
 o
@@ -92,14 +101,13 @@ pa
 papi
 para
 paris
+party
 pending
 pero
 por
-porque
 prrr
 ra
 se
-sé
 selena
 ser
 si
